@@ -21,6 +21,7 @@ Install all the app packages:
 Change any necessary settings with enviroment variables.
 To load a enviroment variable, run `export VARIABLE=VALUE`
 Here all the app configuration (located in app/config.py):
+
 | Enviroment Variable | Description | Default Value |
 | ------ | ------ | ------ |
 | DEBUG | Run the flask application with debug on | True |
