@@ -19,8 +19,8 @@ Install all the app packages:
     pip install -r requirenments.txt
 
 Change any necessary settings with enviroment variables.
-To load a enviroment variable, run `export VARIABLE=VALUE`
-Here all the app configuration (located in app/config.py):
+To load any enviroment variable, run `export VARIABLE=VALUE`
+All the default app configurations are located in [app/config.py](https://github.com/grebessi/weather/blob/master/app/config.py):
 
 | Enviroment Variable | Description | Default Value |
 | ------ | ------ | ------ |
