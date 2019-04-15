@@ -30,6 +30,12 @@ Here all the app configuration (located in app/config.py):
 | CLIMA_TEMPO_URL | Clima Tempo default URL | http://apiadvisor.climatempo.com.br/api/v1/ |
 | CLIMA_TEMPO_TOKEN | Clima Tempo Authentication Token | **Must be set** |
 
+## Make initial migration
+To create the database, run:
+```
+python migrate.py
+```
+
 ## Run the project
 Just run:
 ```
